@@ -1,4 +1,4 @@
-This repos contains the code to run souporcell singlet identification step with GPU Tensorflow. It contains two helper functions to help break down the process and also make benchmarking  convenient ith different parameters.
+This repos contains the code to run souporcell singlet identification step with GPU Tensorflow. It contains two helper functions to help break down the process and also streamline the benchmarking process with different parameters.
 
 The usage is: 
 
