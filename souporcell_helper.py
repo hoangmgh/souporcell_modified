@@ -205,4 +205,4 @@ def cluster_step(max_loci,K,training_epochs,repeats,cell_counts,loci_counts,used
     posterior = sorted(posteriors, key=lambda x: x[0])
     posterior = posterior[0][1]    
     clusters = np.argmax(posterior,axis=1)
-    return(list(clusters,posterior))
+    return clusters,posterior 
